@@ -9,6 +9,14 @@
     "status": {
       "path": "/_v/status/:code",
       "public": true
+    },
+    "helloWorld": {
+      "path": "/_v/helloworld",
+      "public": true
+    },
+    "getUserFromMd": {
+      "path": "/_v/masterdata/getUser",
+      "public": true
     }
   }
 }
