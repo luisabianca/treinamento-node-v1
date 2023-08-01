@@ -17,6 +17,10 @@
     "getUserFromMd": {
       "path": "/_v/masterdata/getUser",
       "public": true
+    },
+    "calculator": {
+      "path": "/_v/calculator",
+      "public": true
     }
   }
 }

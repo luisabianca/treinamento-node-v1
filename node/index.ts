@@ -6,6 +6,7 @@ import { status } from './middlewares/status'
 import { validate } from './middlewares/validate'
 import { helloWorld } from './middlewares/helloworld'
 import { getUserFromMd } from './middlewares/getUserFromMd'
+import { calculator } from './middlewares/calculator'
 
 const TIMEOUT_MS = 800
 
@@ -59,6 +60,9 @@ export default new Service({
     }),
     getUserFromMd: method({
       GET: [getUserFromMd]
+    }),
+    calculator: method({
+      GET: [calculator]
     })
   },
 })
