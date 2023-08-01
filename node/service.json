@@ -21,6 +21,10 @@
     "calculator": {
       "path": "/_v/calculator",
       "public": true
+    },
+    "leapYear": {
+      "path": "/_v/leapyear",
+      "public": true
     }
   }
 }
