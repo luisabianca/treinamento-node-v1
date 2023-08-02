@@ -8,6 +8,7 @@ import { helloWorld } from './middlewares/helloworld'
 import { getUserFromMd } from './middlewares/getUserFromMd'
 import { calculator } from './middlewares/calculator'
 import { leapYear } from './middlewares/leapYear'
+import { validateUserSession } from './middlewares/validateUserSession'
 
 const TIMEOUT_MS = 800
 
@@ -67,6 +68,9 @@ export default new Service({
     }),
     leapYear: method({
       GET: [leapYear]
+    }),
+    validateUserSession: method({
+      GET: [validateUserSession]
     })
   },
 })

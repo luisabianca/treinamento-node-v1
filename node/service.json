@@ -25,6 +25,10 @@
     "leapYear": {
       "path": "/_v/leapyear",
       "public": true
+    },
+    "validateUserSession": {
+      "path": "/_v/validateUserSession",
+      "public": true
     }
   }
 }

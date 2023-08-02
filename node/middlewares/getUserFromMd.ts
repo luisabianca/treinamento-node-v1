@@ -4,7 +4,7 @@ export async function getUserFromMd(ctx: Context, next: () => Promise<void>) {
 
   const response = await ctx.clients.masterdata.searchDocuments({
     dataEntity: 'CL',
-    fields: ['documents', 'email', 'firstName'],
+    fields: ['documents', 'email', 'firstName', 'lastName', 'homePhone'],
     pagination: {
       page: 1,
       pageSize: 1
